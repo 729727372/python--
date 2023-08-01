@@ -6,6 +6,7 @@ from Common.handle_logger import logger
 @pytest.fixture(scope="function")
 def test_fixture():
     print("部分前置sssss")
+    print("部分前置sss111")
     yield
     print("部分后置")
 @pytest.fixture(scope="class")
