@@ -8,7 +8,7 @@ def test_fixture():
     print("部分前置sssss")
     print("部分前置sss111")
     yield
-    print("部分后置")
+    print("部分后置阿斯顿撒旦")
 @pytest.fixture(scope="class")
 def sql_fix():
     print("部分前置")
