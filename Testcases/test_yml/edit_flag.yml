@@ -1,0 +1,10 @@
+-
+  name: 获取接口token
+  request:
+    method: post
+    url: https://api.weixin.qq.com/cgi-bin/token
+    date:
+      grant_type: client+credential
+      appid: wx
+      secret: 10
+  validate: none

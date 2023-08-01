@@ -1,0 +1,166 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-KFR5BLTF",
+    "children" : [ {
+      "name" : "3016-MainThread",
+      "children" : [ {
+        "name" : "test_one",
+        "uid" : "91654e6f71f12a8f",
+        "parentUid" : "790e73de91e0f0a7dfc3aa709a728e24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690803149952,
+          "stop" : 1690803149952,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login[cases0]",
+        "uid" : "5dc798adf68cfd57",
+        "parentUid" : "790e73de91e0f0a7dfc3aa709a728e24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690803149806,
+          "stop" : 1690803149806,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'username': '张三', 'password': 'zhujianwei', 'check': '{\"name\":zhangsan}'}" ]
+      }, {
+        "name" : "test_two",
+        "uid" : "6a405268e2e2894a",
+        "parentUid" : "790e73de91e0f0a7dfc3aa709a728e24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690803149954,
+          "stop" : 1690803149954,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_one",
+        "uid" : "3642104c842cb61d",
+        "parentUid" : "790e73de91e0f0a7dfc3aa709a728e24",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1690803149811,
+          "stop" : 1690803149811,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login[cases1]",
+        "uid" : "3faebecbb9823c0e",
+        "parentUid" : "790e73de91e0f0a7dfc3aa709a728e24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690803149808,
+          "stop" : 1690803149808,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'username': '李四', 'password': 123, 'check': '{\"name\":zhangsan}'}" ]
+      }, {
+        "name" : "test_three",
+        "uid" : "c27dff2b70a648ff",
+        "parentUid" : "790e73de91e0f0a7dfc3aa709a728e24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690803149956,
+          "stop" : 1690803149956,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_ces",
+        "uid" : "907db572020ae195",
+        "parentUid" : "790e73de91e0f0a7dfc3aa709a728e24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690803149809,
+          "stop" : 1690803149810,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_01_get_token[caseinfo0]",
+        "uid" : "7b7d73114458d260",
+        "parentUid" : "790e73de91e0f0a7dfc3aa709a728e24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690803149479,
+          "stop" : 1690803149803,
+          "duration" : 324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}" ]
+      }, {
+        "name" : "test_four",
+        "uid" : "5a2f42fb5b2fff50",
+        "parentUid" : "790e73de91e0f0a7dfc3aa709a728e24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690803149958,
+          "stop" : 1690803149958,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "790e73de91e0f0a7dfc3aa709a728e24"
+    } ],
+    "uid" : "0c452619f70ec21ed491c6619bf08e19"
+  } ]
+}
