@@ -1,11 +1,11 @@
 {
-  "uid" : "6a405268e2e2894a",
-  "name" : "test_two",
-  "fullName" : "Testcases.test_two.TestApi#test_two",
-  "historyId" : "fd52543253621d3bbf7f3d8b0489f94c",
+  "uid" : "a10cd6fd39f363e",
+  "name" : "test_four",
+  "fullName" : "Testcases.test_two.TestApione#test_four",
+  "historyId" : "7584aedcb6fb37fb93987ea46feaceb7",
   "time" : {
-    "start" : 1690803149954,
-    "stop" : 1690803149954,
+    "start" : 1690882446224,
+    "stop" : 1690882446224,
     "duration" : 0
   },
   "status" : "passed",
@@ -16,38 +16,41 @@
   "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ {
-    "name" : "test_fixture",
+    "name" : "sql_fix",
     "time" : {
-      "start" : 1690803149954,
-      "stop" : 1690803149954,
+      "start" : 1690882446223,
+      "stop" : 1690882446223,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "afterStages" : [ {
-    "name" : "test_fixture::0",
+    "name" : "sql_fix::0",
     "time" : {
-      "start" : 1690803149954,
-      "stop" : 1690803149954,
+      "start" : 1690882446224,
+      "stop" : 1690882446224,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('sql_fix')"
+  }, {
     "name" : "parentSuite",
     "value" : "Testcases"
   }, {
@@ -55,13 +58,13 @@
     "value" : "test_two"
   }, {
     "name" : "subSuite",
-    "value" : "TestApi"
+    "value" : "TestApione"
   }, {
     "name" : "host",
     "value" : "LAPTOP-KFR5BLTF"
   }, {
     "name" : "thread",
-    "value" : "3016-MainThread"
+    "value" : "20848-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -83,8 +86,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ ]
+    "tags" : [ "@pytest.mark.usefixtures('sql_fix')" ]
   },
-  "source" : "6a405268e2e2894a.json",
+  "source" : "a10cd6fd39f363e.json",
   "parameterValues" : [ ]
 }

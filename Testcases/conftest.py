@@ -11,9 +11,9 @@ def test_fixture():
     print("部分后置阿斯顿撒旦")
 @pytest.fixture(scope="class")
 def sql_fix():
-    print("部分前置")
+    print("部分前置sadsa")
     yield
-    print("部分后置")
+    print("部分后置打")
 @pytest.fixture(scope="function")
 def env_del_data_dic():
 

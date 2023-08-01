@@ -1,16 +1,14 @@
 {
-  "uid" : "3642104c842cb61d",
-  "name" : "test_one",
-  "fullName" : "Testcases.test_three.TestThree#test_one",
-  "historyId" : "11259db53a7421ea422434c4d7d35443",
+  "uid" : "cd0740f31610f66a",
+  "name" : "test_ces",
+  "fullName" : "Testcases.test_three.TestThree#test_ces",
+  "historyId" : "2fc8606a1546138523292d1025424d2f",
   "time" : {
-    "start" : 1690803149811,
-    "stop" : 1690803149811,
+    "start" : 1690882446027,
+    "stop" : 1690882446027,
     "duration" : 0
   },
-  "status" : "skipped",
-  "statusMessage" : "XFAIL\n\nAssertionError: assert 1 == 2",
-  "statusTrace" : "self = <Testcases.test_three.TestThree object at 0x00000297FA7CB940>\n\n    @pytest.mark.xfail\n    def test_one(self):\n        logger.info(\"TestThree开始执行\")\n        print(\"测试类的部分前置\")\n        logger.info(\"TestThree执行结束\")\n>       assert 1==2\nE       assert 1 == 2\n\nTestcases\\test_three.py:17: AssertionError",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -20,39 +18,36 @@
   "beforeStages" : [ {
     "name" : "sql_fix",
     "time" : {
-      "start" : 1690803149809,
-      "stop" : 1690803149809,
+      "start" : 1690882446026,
+      "stop" : 1690882446026,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "afterStages" : [ {
     "name" : "sql_fix::0",
     "time" : {
-      "start" : 1690803149950,
-      "stop" : 1690803149950,
+      "start" : 1690882446215,
+      "stop" : 1690882446215,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
-    "name" : "tag",
-    "value" : "@pytest.mark.xfail"
-  }, {
     "name" : "tag",
     "value" : "@pytest.mark.usefixtures('sql_fix')"
   }, {
@@ -72,7 +67,7 @@
     "value" : "LAPTOP-KFR5BLTF"
   }, {
     "name" : "thread",
-    "value" : "3016-MainThread"
+    "value" : "20848-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -94,8 +89,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "@pytest.mark.xfail", "smoke", "@pytest.mark.usefixtures('sql_fix')" ]
+    "tags" : [ "smoke", "@pytest.mark.usefixtures('sql_fix')" ]
   },
-  "source" : "3642104c842cb61d.json",
+  "source" : "cd0740f31610f66a.json",
   "parameterValues" : [ ]
 }

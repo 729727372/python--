@@ -1,11 +1,11 @@
 {
-  "uid" : "3faebecbb9823c0e",
+  "uid" : "22f13c3a7559d1ef",
   "name" : "test_login[cases1]",
   "fullName" : "Testcases.test_execle_ddt#test_login",
   "historyId" : "9d58567c851348f0869a08d7b17a821a",
   "time" : {
-    "start" : 1690803149808,
-    "stop" : 1690803149808,
+    "start" : 1690882446023,
+    "stop" : 1690882446023,
     "duration" : 0
   },
   "status" : "passed",
@@ -28,7 +28,7 @@
     "value" : "LAPTOP-KFR5BLTF"
   }, {
     "name" : "thread",
-    "value" : "3016-MainThread"
+    "value" : "20848-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -55,6 +55,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3faebecbb9823c0e.json",
+  "source" : "22f13c3a7559d1ef.json",
   "parameterValues" : [ "{'username': '李四', 'password': 123, 'check': '{\"name\":zhangsan}'}" ]
 }
