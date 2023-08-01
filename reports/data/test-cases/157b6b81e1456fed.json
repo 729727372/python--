@@ -1,12 +1,12 @@
 {
-  "uid" : "7b7d73114458d260",
+  "uid" : "157b6b81e1456fed",
   "name" : "test_01_get_token[caseinfo0]",
   "fullName" : "Testcases.test_api.TestApi#test_01_get_token",
   "historyId" : "6ff46f0a816fcb2581af713871818767",
   "time" : {
-    "start" : 1690803149479,
-    "stop" : 1690803149803,
-    "duration" : 324
+    "start" : 1690882445769,
+    "stop" : 1690882446013,
+    "duration" : 244
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,18 +18,18 @@
   "beforeStages" : [ {
     "name" : "env_del_data_dic",
     "time" : {
-      "start" : 1690803149478,
-      "stop" : 1690803149478,
+      "start" : 1690882445766,
+      "stop" : 1690882445766,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "afterStages" : [ ],
   "labels" : [ {
@@ -49,7 +49,7 @@
     "value" : "LAPTOP-KFR5BLTF"
   }, {
     "name" : "thread",
-    "value" : "3016-MainThread"
+    "value" : "20848-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -76,6 +76,6 @@
     "categories" : [ ],
     "tags" : [ "@pytest.mark.usefixtures('env_del_data_dic')" ]
   },
-  "source" : "7b7d73114458d260.json",
+  "source" : "157b6b81e1456fed.json",
   "parameterValues" : [ "{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}" ]
 }

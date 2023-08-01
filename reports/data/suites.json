@@ -9,13 +9,13 @@
         "name" : "TestApi",
         "children" : [ {
           "name" : "test_01_get_token[caseinfo0]",
-          "uid" : "7b7d73114458d260",
+          "uid" : "157b6b81e1456fed",
           "parentUid" : "37626f2b2f03b8d19bf6719118464239",
           "status" : "passed",
           "time" : {
-            "start" : 1690803149479,
-            "stop" : 1690803149803,
-            "duration" : 324
+            "start" : 1690882445769,
+            "stop" : 1690882446013,
+            "duration" : 244
           },
           "flaky" : false,
           "newFailed" : false,
@@ -32,12 +32,12 @@
       "name" : "test_execle_ddt",
       "children" : [ {
         "name" : "test_login[cases0]",
-        "uid" : "5dc798adf68cfd57",
+        "uid" : "fa6bfb7a95364169",
         "parentUid" : "9da1678b95b1bed4fc95d8d0b8c97d5a",
         "status" : "passed",
         "time" : {
-          "start" : 1690803149806,
-          "stop" : 1690803149806,
+          "start" : 1690882446018,
+          "stop" : 1690882446018,
           "duration" : 0
         },
         "flaky" : false,
@@ -49,12 +49,12 @@
         "parameters" : [ "{'username': '张三', 'password': 'zhujianwei', 'check': '{\"name\":zhangsan}'}" ]
       }, {
         "name" : "test_login[cases1]",
-        "uid" : "3faebecbb9823c0e",
+        "uid" : "22f13c3a7559d1ef",
         "parentUid" : "9da1678b95b1bed4fc95d8d0b8c97d5a",
         "status" : "passed",
         "time" : {
-          "start" : 1690803149808,
-          "stop" : 1690803149808,
+          "start" : 1690882446023,
+          "stop" : 1690882446023,
           "duration" : 0
         },
         "flaky" : false,
@@ -72,13 +72,13 @@
         "name" : "TestThree",
         "children" : [ {
           "name" : "test_ces",
-          "uid" : "907db572020ae195",
+          "uid" : "cd0740f31610f66a",
           "parentUid" : "5ee22d99b04da8a7d0feb94da030552b",
           "status" : "passed",
           "time" : {
-            "start" : 1690803149809,
-            "stop" : 1690803149810,
-            "duration" : 1
+            "start" : 1690882446027,
+            "stop" : 1690882446027,
+            "duration" : 0
           },
           "flaky" : false,
           "newFailed" : false,
@@ -89,13 +89,13 @@
           "parameters" : [ ]
         }, {
           "name" : "test_one",
-          "uid" : "3642104c842cb61d",
+          "uid" : "4e10ad6cab087f5a",
           "parentUid" : "5ee22d99b04da8a7d0feb94da030552b",
           "status" : "skipped",
           "time" : {
-            "start" : 1690803149811,
-            "stop" : 1690803149811,
-            "duration" : 0
+            "start" : 1690882446029,
+            "stop" : 1690882446030,
+            "duration" : 1
           },
           "flaky" : false,
           "newFailed" : false,
@@ -114,12 +114,12 @@
         "name" : "TestApi",
         "children" : [ {
           "name" : "test_one",
-          "uid" : "91654e6f71f12a8f",
+          "uid" : "da1b514b641ebe35",
           "parentUid" : "b12dcb3d99ec96eb5029dab43b96a319",
           "status" : "passed",
           "time" : {
-            "start" : 1690803149952,
-            "stop" : 1690803149952,
+            "start" : 1690882446217,
+            "stop" : 1690882446217,
             "duration" : 0
           },
           "flaky" : false,
@@ -131,12 +131,12 @@
           "parameters" : [ ]
         }, {
           "name" : "test_two",
-          "uid" : "6a405268e2e2894a",
+          "uid" : "c8abb92755ec9a70",
           "parentUid" : "b12dcb3d99ec96eb5029dab43b96a319",
           "status" : "passed",
           "time" : {
-            "start" : 1690803149954,
-            "stop" : 1690803149954,
+            "start" : 1690882446220,
+            "stop" : 1690882446220,
             "duration" : 0
           },
           "flaky" : false,
@@ -148,12 +148,12 @@
           "parameters" : [ ]
         }, {
           "name" : "test_three",
-          "uid" : "c27dff2b70a648ff",
+          "uid" : "82db3b06681119c5",
           "parentUid" : "b12dcb3d99ec96eb5029dab43b96a319",
           "status" : "passed",
           "time" : {
-            "start" : 1690803149956,
-            "stop" : 1690803149956,
+            "start" : 1690882446222,
+            "stop" : 1690882446222,
             "duration" : 0
           },
           "flaky" : false,
@@ -169,12 +169,12 @@
         "name" : "TestApione",
         "children" : [ {
           "name" : "test_four",
-          "uid" : "5a2f42fb5b2fff50",
+          "uid" : "a10cd6fd39f363e",
           "parentUid" : "ee03b31b9043548d64645c8ef012098d",
           "status" : "passed",
           "time" : {
-            "start" : 1690803149958,
-            "stop" : 1690803149958,
+            "start" : 1690882446224,
+            "stop" : 1690882446224,
             "duration" : 0
           },
           "flaky" : false,

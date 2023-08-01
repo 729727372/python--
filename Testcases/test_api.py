@@ -7,18 +7,10 @@ from Common.handle_logger import logger
 from Common.handle_data import EnvData
 import requests
 class TestApi:
+
     @pytest.mark.usefixtures("env_del_data_dic")
     @pytest.mark.parametrize("caseinfo",YamlUtil().read_yaml('get_token.yml'))
     def test_01_get_token(self,caseinfo):
-
-        #  每次执行前清理EnvData s属性  防止出现BUG
-        values = dict(EnvData.__dict__.items())
-        for key,value in values.items():
-            if key.startswith("__"):
-                pass
-            else:
-                delattr(EnvData,key)
-
         logger.info("获取到的用例{}".format(caseinfo))
         method = caseinfo['request']['method']
         logger.info("请求的方法是{}".format(method))
@@ -29,10 +21,12 @@ class TestApi:
         logger.info("全局变量data:{}".format(EnvData.data))
         request = RequestUtil()
         res = request.send_reqest(method=method,url=url,date=date)
+        logger.info("响应结果是:{}".format(res.json()))
         code = res.status_code
         dic = res.json()
-        logger.info("access_token值是{}".format(dic["access_token"]))
-        setattr(EnvData,"access_token",dic["access_token"])
+        logger.info("dic的内容是",dic)
+        # logger.info("access_token值是{}".format(dic["access_token"]))
+        setattr(EnvData,"access_token","暂时写死的")
 
         logger.info("接口返回结果是{}".format(res.json()))
         logger.info("EnvData全局变量存储的的access_token：{}".format(EnvData.access_token))
@@ -54,6 +48,3 @@ class TestApi:
     # @pytest.mark.parametrize("name,age", [['百里','12'],['依然','13']])
     # def test_02_get_token(self, name,age):
     #     print("获取token值:" +  name,age)
-
-if __name__ == '__main__':
-    pytest.main(["-v"])
