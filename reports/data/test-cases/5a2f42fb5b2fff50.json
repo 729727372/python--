@@ -1,0 +1,93 @@
+{
+  "uid" : "5a2f42fb5b2fff50",
+  "name" : "test_four",
+  "fullName" : "Testcases.test_two.TestApione#test_four",
+  "historyId" : "7584aedcb6fb37fb93987ea46feaceb7",
+  "time" : {
+    "start" : 1690803149958,
+    "stop" : 1690803149958,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "sql_fix",
+    "time" : {
+      "start" : 1690803149958,
+      "stop" : 1690803149958,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "sql_fix::0",
+    "time" : {
+      "start" : 1690803149958,
+      "stop" : 1690803149958,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('sql_fix')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_two"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestApione"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-KFR5BLTF"
+  }, {
+    "name" : "thread",
+    "value" : "3016-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.test_two"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('sql_fix')" ]
+  },
+  "source" : "5a2f42fb5b2fff50.json",
+  "parameterValues" : [ ]
+}
