@@ -1,0 +1,344 @@
+2023-07-30 17:40:10,676 testpy INFO test_api.py-11 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 17:40:10,676 testpy INFO test_api.py-13 line: 请求的方法是GET
+2023-07-30 17:40:10,676 testpy INFO test_api.py-15 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 17:40:10,676 testpy INFO test_api.py-18 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 17:40:10,963 testpy INFO send_request.py-11 line: {'access_token': '71_sfQSlTWjwq_IDp1dLgi7xihBH7dre--fUyXxPte_6-LrbQUxTW8oOM7zRuFBX0pRhe8ODeuzZyr-P0kX7eIoj91eBLFTciuwLkuIHp_HIdzgYfjxVOYLi4j0ZN4CRKdAJAUJC', 'expires_in': 7200}
+2023-07-30 17:42:21,853 testpy INFO test_api.py-11 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 17:42:21,853 testpy INFO test_api.py-13 line: 请求的方法是GET
+2023-07-30 17:42:21,853 testpy INFO test_api.py-15 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 17:42:21,853 testpy INFO test_api.py-18 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 17:42:22,162 testpy INFO send_request.py-11 line: {'access_token': '71_XhyR2Vp-sUoJxLHY_1ueraq0HwYrx0KdiWAOkXAA5eRGKdarXaAU6U1sUMYl56ubvIW5rVlaBQGMWi16ZSNKq-hmcGG7iTviNUVM5xSytb_ZIBVCV0nWBOY8vTMEJPhABAOTZ', 'expires_in': 7200}
+2023-07-30 17:42:22,162 testpy INFO test_api.py-22 line: 接口返回结果是<Response [200]>
+2023-07-30 17:42:48,802 testpy INFO test_api.py-11 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 17:42:48,802 testpy INFO test_api.py-13 line: 请求的方法是GET
+2023-07-30 17:42:48,802 testpy INFO test_api.py-15 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 17:42:48,802 testpy INFO test_api.py-18 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 17:42:49,064 testpy INFO send_request.py-11 line: {'access_token': '71_TuQqar9_Jk1CP_aICHPiAZAVND1e7xA1UOzfgu7PPcVWgK6Wxb81B4GHYZ7ASm6-DQyrz2Th0w0rx92cVM1bNLizlgdK1q0c1Kz28-91xir2sSgpZEdvrKSaufcTIHfAIANCB', 'expires_in': 7200}
+2023-07-30 17:42:49,064 testpy INFO test_api.py-22 line: 接口返回结果是{'access_token': '71_TuQqar9_Jk1CP_aICHPiAZAVND1e7xA1UOzfgu7PPcVWgK6Wxb81B4GHYZ7ASm6-DQyrz2Th0w0rx92cVM1bNLizlgdK1q0c1Kz28-91xir2sSgpZEdvrKSaufcTIHfAIANCB', 'expires_in': 7200}
+2023-07-30 17:46:38,694 testpy INFO test_api.py-11 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 17:46:38,694 testpy INFO test_api.py-13 line: 请求的方法是GET
+2023-07-30 17:46:38,694 testpy INFO test_api.py-15 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 17:46:38,694 testpy INFO test_api.py-18 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 17:46:38,997 testpy INFO send_request.py-11 line: {'access_token': '71_mwoHVi7lz7f8PYKbZRP5S4Ipe_rFrOzmEtgJhRSBSV4pmAji8XczBeZ4Hm_Lhs9IAWIIzIDujpz82QwvVspyGXDj32SHoDsCF5gxWlVWIFKRJ1kyooyBd5mc_vwDRDbAGAUIU', 'expires_in': 7200}
+2023-07-30 17:46:38,997 testpy INFO test_api.py-22 line: 接口返回结果是{'access_token': '71_mwoHVi7lz7f8PYKbZRP5S4Ipe_rFrOzmEtgJhRSBSV4pmAji8XczBeZ4Hm_Lhs9IAWIIzIDujpz82QwvVspyGXDj32SHoDsCF5gxWlVWIFKRJ1kyooyBd5mc_vwDRDbAGAUIU', 'expires_in': 7200}
+2023-07-30 17:47:02,139 testpy INFO test_api.py-11 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 17:47:02,139 testpy INFO test_api.py-13 line: 请求的方法是GET
+2023-07-30 17:47:02,139 testpy INFO test_api.py-15 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 17:47:02,139 testpy INFO test_api.py-18 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 17:47:02,492 testpy INFO send_request.py-11 line: {'access_token': '71_NmvQcnlRO_uUw5jzAv88SkXZcauDYhbM0uFFx-JPy9BhgoWfnWKIYoPoaX6w2O1DJzL_d943Ua5vqeyULB0aITvwOCQzDE6in3L_DfoSy_77jAHQN7LV0jZrxZMXVBeAGAECI', 'expires_in': 7200}
+2023-07-30 17:47:02,492 testpy INFO test_api.py-22 line: 接口返回结果是200
+2023-07-30 17:47:02,492 testpy INFO test_api.py-24 line: 接口返回结果是{'access_token': '71_NmvQcnlRO_uUw5jzAv88SkXZcauDYhbM0uFFx-JPy9BhgoWfnWKIYoPoaX6w2O1DJzL_d943Ua5vqeyULB0aITvwOCQzDE6in3L_DfoSy_77jAHQN7LV0jZrxZMXVBeAGAECI', 'expires_in': 7200}
+2023-07-30 17:52:56,788 testpy INFO test_api.py-12 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 17:52:56,788 testpy INFO test_api.py-14 line: 请求的方法是GET
+2023-07-30 17:52:56,788 testpy INFO test_api.py-16 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 17:52:56,788 testpy INFO test_api.py-19 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 17:52:57,078 testpy INFO send_request.py-11 line: {'access_token': '71_uUbGN8jluSccGIfcX6BZSCqLRhfeC1o9EEUzxeq3iAcsgQtBynU2xlBdG6RMGtTr4V6y9tjqYd9_GyLnbnJFvxXXWRgf5kggB4b99evE4t7lrM-bZX3ZEllDFT8ICPjABAVPC', 'expires_in': 7200}
+2023-07-30 17:52:57,078 testpy INFO test_api.py-24 line: 接口返回结果是200
+2023-07-30 17:52:57,079 testpy INFO test_api.py-27 line: 全局变量access_token值为
+2023-07-30 17:52:57,079 testpy INFO test_api.py-29 line: 接口返回结果是{'access_token': '71_uUbGN8jluSccGIfcX6BZSCqLRhfeC1o9EEUzxeq3iAcsgQtBynU2xlBdG6RMGtTr4V6y9tjqYd9_GyLnbnJFvxXXWRgf5kggB4b99evE4t7lrM-bZX3ZEllDFT8ICPjABAVPC', 'expires_in': 7200}
+2023-07-30 17:53:26,022 testpy INFO test_api.py-12 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 17:53:26,022 testpy INFO test_api.py-14 line: 请求的方法是GET
+2023-07-30 17:53:26,022 testpy INFO test_api.py-16 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 17:53:26,022 testpy INFO test_api.py-19 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 17:53:26,317 testpy INFO send_request.py-11 line: {'access_token': '71_HMeUSQ5FhCoMC6fsr-l26tU7WD2cHcK7Am8kqYuuqOlUGw05l_d_c618WCR8nlvsa04JZoAegyZyeiry-LJX5kdy8lULTrvdirKYSY6RkeQBCDcrQaMRJMt1wsUGPDeADASBP', 'expires_in': 7200}
+2023-07-30 17:53:26,318 testpy INFO test_api.py-24 line: 接口返回结果是200
+2023-07-30 17:53:26,318 testpy INFO test_api.py-27 line: 全局变量access_token值为False
+2023-07-30 17:53:26,318 testpy INFO test_api.py-29 line: 接口返回结果是{'access_token': '71_HMeUSQ5FhCoMC6fsr-l26tU7WD2cHcK7Am8kqYuuqOlUGw05l_d_c618WCR8nlvsa04JZoAegyZyeiry-LJX5kdy8lULTrvdirKYSY6RkeQBCDcrQaMRJMt1wsUGPDeADASBP', 'expires_in': 7200}
+2023-07-30 17:54:33,869 testpy INFO test_api.py-12 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 17:54:33,869 testpy INFO test_api.py-14 line: 请求的方法是GET
+2023-07-30 17:54:33,869 testpy INFO test_api.py-16 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 17:54:33,869 testpy INFO test_api.py-19 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 17:54:34,197 testpy INFO send_request.py-11 line: {'access_token': '71_O8C9GNUqacHif7QPEf532ZTR4Cc_RMBycq2DSTQBCJ6vq6r1uYosJBLQAP4Vzb9cB9NJ9oqUPca15-xrTtf7U9NHgsO7FuwVrA4j0ilytd7L-EsCVrt4kwhh4TQELZfAEAIPD', 'expires_in': 7200}
+2023-07-30 17:54:34,197 testpy INFO test_api.py-24 line: 接口返回结果是200
+2023-07-30 17:55:32,535 testpy INFO test_api.py-12 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 17:55:32,535 testpy INFO test_api.py-14 line: 请求的方法是GET
+2023-07-30 17:55:32,535 testpy INFO test_api.py-16 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 17:55:32,535 testpy INFO test_api.py-19 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 17:55:32,871 testpy INFO send_request.py-11 line: {'access_token': '71_-Qc5hXW0O-HGLGxnMbt15noogWFsav7bpNo-__YDAx3YId9wh_i7zfaC0G_WecJxLf-6QNskmnR-_R4DhfuBqCxtXPFlE1YNRNU_ElBsJ5ry2tK2aF4jQt_1A0YPMIaAHABYU', 'expires_in': 7200}
+2023-07-30 17:55:32,871 testpy INFO test_api.py-24 line: 接口返回结果是200
+2023-07-30 17:55:32,871 testpy INFO test_api.py-28 line: 全局变量access_token值为False
+2023-07-30 17:55:32,871 testpy INFO test_api.py-30 line: 接口返回结果是{'access_token': '71_-Qc5hXW0O-HGLGxnMbt15noogWFsav7bpNo-__YDAx3YId9wh_i7zfaC0G_WecJxLf-6QNskmnR-_R4DhfuBqCxtXPFlE1YNRNU_ElBsJ5ry2tK2aF4jQt_1A0YPMIaAHABYU', 'expires_in': 7200}
+2023-07-30 17:56:22,697 testpy INFO test_api.py-12 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 17:56:22,697 testpy INFO test_api.py-14 line: 请求的方法是GET
+2023-07-30 17:56:22,697 testpy INFO test_api.py-16 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 17:56:22,697 testpy INFO test_api.py-19 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 17:56:22,974 testpy INFO send_request.py-11 line: {'access_token': '71_ivM6BhhQxrDDVi8IB4PDFepzzmd2MT8s0FTSAUa1C8QLv2I0W6Dt9JWwBdzQxjg2NI6rBAyF2TvcmmujzF6M0M5Fzwg3YvckMoXGRIsStbRgWDKsX8_rtliu45AELLeAJARYY', 'expires_in': 7200}
+2023-07-30 17:56:22,974 testpy INFO test_api.py-24 line: 接口返回结果是200
+2023-07-30 17:56:22,974 testpy INFO test_api.py-26 line: access_tokenFalse
+2023-07-30 17:56:22,974 testpy INFO test_api.py-29 line: 全局变量access_token值为False
+2023-07-30 17:56:22,974 testpy INFO test_api.py-31 line: 接口返回结果是{'access_token': '71_ivM6BhhQxrDDVi8IB4PDFepzzmd2MT8s0FTSAUa1C8QLv2I0W6Dt9JWwBdzQxjg2NI6rBAyF2TvcmmujzF6M0M5Fzwg3YvckMoXGRIsStbRgWDKsX8_rtliu45AELLeAJARYY', 'expires_in': 7200}
+2023-07-30 17:57:39,908 testpy INFO test_api.py-12 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 17:57:39,909 testpy INFO test_api.py-14 line: 请求的方法是GET
+2023-07-30 17:57:39,909 testpy INFO test_api.py-16 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 17:57:39,909 testpy INFO test_api.py-19 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 17:57:40,220 testpy INFO send_request.py-11 line: {'access_token': '71_c9BARVayf7lGj4aKdyjCpSh9o8PayTpDYX5_nA-gNTeaNG91MFi0kx5X66hZtL-_46WyqxeebZxoJBUdZ8MXZStX67tMjNEni0Q6_81DodIC8DazK4X2eJCLTnMPCOiAFAERD', 'expires_in': 7200}
+2023-07-30 17:58:33,530 testpy INFO test_api.py-12 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 17:58:33,530 testpy INFO test_api.py-14 line: 请求的方法是GET
+2023-07-30 17:58:33,531 testpy INFO test_api.py-16 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 17:58:33,531 testpy INFO test_api.py-19 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 17:58:33,869 testpy INFO send_request.py-11 line: {'access_token': '71_IlsHZRNGyvjVCYIt6NkOHW1kvrdLXJr90oRf2gFnmlnmaKgd_gcj_pUqJHmIVVuBWkNpZwcpFW9D5kUit4DcQPEbqpjstec6I75MyPiFvQ7gk3o2knNrzblgjKsRJUjAAALDO', 'expires_in': 7200}
+2023-07-30 17:58:56,527 testpy INFO test_api.py-12 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 17:58:56,527 testpy INFO test_api.py-14 line: 请求的方法是GET
+2023-07-30 17:58:56,527 testpy INFO test_api.py-16 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 17:58:56,527 testpy INFO test_api.py-19 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 17:58:56,973 testpy INFO send_request.py-11 line: {'access_token': '71_hTJhaK28ykhoTe6rdE_ekHbblHSclkGBSYRZk4_z5h-QVysIVfhITX-BbYOJ33tsh3XCX1tdDm8D54g3YlmEMgRjffM_1bmqtf5fv-jSrADD-SIxO6s7jRJtC1ULQBbABADIT', 'expires_in': 7200}
+2023-07-30 17:58:56,973 testpy INFO test_api.py-23 line: 接口返回结果是{'access_token': '71_hTJhaK28ykhoTe6rdE_ekHbblHSclkGBSYRZk4_z5h-QVysIVfhITX-BbYOJ33tsh3XCX1tdDm8D54g3YlmEMgRjffM_1bmqtf5fv-jSrADD-SIxO6s7jRJtC1ULQBbABADIT', 'expires_in': 7200}
+2023-07-30 18:00:48,326 testpy INFO test_api.py-12 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 18:00:48,326 testpy INFO test_api.py-14 line: 请求的方法是GET
+2023-07-30 18:00:48,326 testpy INFO test_api.py-16 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 18:00:48,327 testpy INFO test_api.py-19 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 18:00:48,623 testpy INFO send_request.py-11 line: {'access_token': '71_qVypvmRJK5_uJLewz9oLu2HU5Z04W63gIw1_3w5jfGNm6jN9NMtlUDVUgwaSuKJOK5M3OYPvJKtcHadIqKRYRRyEDxxw3Lg03yB6kbh9ij8PWCChHOxWO6LKNAsHENjACANKT', 'expires_in': 7200}
+2023-07-30 18:00:48,623 testpy INFO test_api.py-24 line: access_token值是
+2023-07-30 18:00:48,624 testpy INFO test_api.py-25 line: 接口返回结果是{'access_token': '71_qVypvmRJK5_uJLewz9oLu2HU5Z04W63gIw1_3w5jfGNm6jN9NMtlUDVUgwaSuKJOK5M3OYPvJKtcHadIqKRYRRyEDxxw3Lg03yB6kbh9ij8PWCChHOxWO6LKNAsHENjACANKT', 'expires_in': 7200}
+2023-07-30 18:01:16,434 testpy INFO test_api.py-12 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 18:01:16,434 testpy INFO test_api.py-14 line: 请求的方法是GET
+2023-07-30 18:01:16,434 testpy INFO test_api.py-16 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 18:01:16,435 testpy INFO test_api.py-19 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 18:01:16,732 testpy INFO send_request.py-11 line: {'access_token': '71_EasYMaoz_vQPO4K8_1ueraq0HwYrx0KdiWAOkUKsOp8PS1VUSFTGVTG9eV4PKeheSqGd4AuNQRw3atI6bI1cOFSKLVbATow8csxxKqGb2p9Vudv9jrdQrHnpgskIOUfAAALRX', 'expires_in': 7200}
+2023-07-30 18:01:16,733 testpy INFO test_api.py-24 line: access_token值是
+2023-07-30 18:01:16,733 testpy INFO test_api.py-25 line: 接口返回结果是{'access_token': '71_EasYMaoz_vQPO4K8_1ueraq0HwYrx0KdiWAOkUKsOp8PS1VUSFTGVTG9eV4PKeheSqGd4AuNQRw3atI6bI1cOFSKLVbATow8csxxKqGb2p9Vudv9jrdQrHnpgskIOUfAAALRX', 'expires_in': 7200}
+2023-07-30 18:01:27,693 testpy INFO test_api.py-12 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 18:01:27,693 testpy INFO test_api.py-14 line: 请求的方法是GET
+2023-07-30 18:01:27,693 testpy INFO test_api.py-16 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 18:01:27,693 testpy INFO test_api.py-19 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 18:01:27,996 testpy INFO send_request.py-11 line: {'access_token': '71_EasYMaoz_vQPO4K8_1ueraq0HwYrx0KdiWAOkUKsOp8PS1VUSFTGVTG9eV4PKeheSqGd4AuNQRw3atI6bI1cOFSKLVbATow8csxxKqGb2p9Vudv9jrdQrHnpgskHQXfAAAUDK', 'expires_in': 7200}
+2023-07-30 18:01:27,996 testpy INFO test_api.py-25 line: access_token值是
+2023-07-30 18:01:27,996 testpy INFO test_api.py-26 line: 接口返回结果是{'access_token': '71_EasYMaoz_vQPO4K8_1ueraq0HwYrx0KdiWAOkUKsOp8PS1VUSFTGVTG9eV4PKeheSqGd4AuNQRw3atI6bI1cOFSKLVbATow8csxxKqGb2p9Vudv9jrdQrHnpgskHQXfAAAUDK', 'expires_in': 7200}
+2023-07-30 18:01:55,874 testpy INFO test_api.py-12 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 18:01:55,874 testpy INFO test_api.py-14 line: 请求的方法是GET
+2023-07-30 18:01:55,874 testpy INFO test_api.py-16 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 18:01:55,874 testpy INFO test_api.py-19 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 18:01:56,202 testpy INFO send_request.py-11 line: {'access_token': '71_hKOgNHKuW47dOWUAbr8WUN-_dLiSM5PKZEdPAsuglzW4lIakllq4Y_EUT8ckfFxD468gMnPg22845nyaJdsV-69I9eLMuzKvxxFCG3x9p8tc4dDoIIpLwJlr8aIQPZiAIADCM', 'expires_in': 7200}
+2023-07-30 18:01:56,202 testpy INFO test_api.py-25 line: access_token值是{'access_token': '71_hKOgNHKuW47dOWUAbr8WUN-_dLiSM5PKZEdPAsuglzW4lIakllq4Y_EUT8ckfFxD468gMnPg22845nyaJdsV-69I9eLMuzKvxxFCG3x9p8tc4dDoIIpLwJlr8aIQPZiAIADCM', 'expires_in': 7200}
+2023-07-30 18:01:56,202 testpy INFO test_api.py-26 line: 接口返回结果是{'access_token': '71_hKOgNHKuW47dOWUAbr8WUN-_dLiSM5PKZEdPAsuglzW4lIakllq4Y_EUT8ckfFxD468gMnPg22845nyaJdsV-69I9eLMuzKvxxFCG3x9p8tc4dDoIIpLwJlr8aIQPZiAIADCM', 'expires_in': 7200}
+2023-07-30 18:02:14,332 testpy INFO test_api.py-12 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 18:02:14,332 testpy INFO test_api.py-14 line: 请求的方法是GET
+2023-07-30 18:02:14,332 testpy INFO test_api.py-16 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 18:02:14,332 testpy INFO test_api.py-19 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 18:02:14,591 testpy INFO send_request.py-11 line: {'access_token': '71_hKOgNHKuW47dOWUAbr8WUN-_dLiSM5PKZEdPAsuglzW4lIakllq4Y_EUT8ckfFxD468gMnPg22845nyaJdsV-69I9eLMuzKvxxFCG3x9p8tc4dDoIIpLwJlr8aIAJYiAIAOXM', 'expires_in': 7200}
+2023-07-30 18:02:14,591 testpy INFO test_api.py-25 line: access_token值是71_hKOgNHKuW47dOWUAbr8WUN-_dLiSM5PKZEdPAsuglzW4lIakllq4Y_EUT8ckfFxD468gMnPg22845nyaJdsV-69I9eLMuzKvxxFCG3x9p8tc4dDoIIpLwJlr8aIAJYiAIAOXM
+2023-07-30 18:02:14,591 testpy INFO test_api.py-26 line: 接口返回结果是{'access_token': '71_hKOgNHKuW47dOWUAbr8WUN-_dLiSM5PKZEdPAsuglzW4lIakllq4Y_EUT8ckfFxD468gMnPg22845nyaJdsV-69I9eLMuzKvxxFCG3x9p8tc4dDoIIpLwJlr8aIAJYiAIAOXM', 'expires_in': 7200}
+2023-07-30 18:04:12,322 testpy INFO test_api.py-12 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 18:04:12,323 testpy INFO test_api.py-14 line: 请求的方法是GET
+2023-07-30 18:04:12,323 testpy INFO test_api.py-16 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 18:04:12,323 testpy INFO test_api.py-19 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 18:04:12,642 testpy INFO send_request.py-11 line: {'access_token': '71_fYoMDeYh-crevmdW_fJJvMn_4lGao4KqzPn5UKAqVQJF_q0PRz5shWMbzwoDgEoGVgv3x8GcHDsLBNbhRIBhroiqByA64jJphCXm8-dJPucXtRjDg0z1axdY17IHFTaAHARPD', 'expires_in': 7200}
+2023-07-30 18:04:12,642 testpy INFO test_api.py-24 line: access_token值是71_fYoMDeYh-crevmdW_fJJvMn_4lGao4KqzPn5UKAqVQJF_q0PRz5shWMbzwoDgEoGVgv3x8GcHDsLBNbhRIBhroiqByA64jJphCXm8-dJPucXtRjDg0z1axdY17IHFTaAHARPD
+2023-07-30 18:04:12,642 testpy INFO test_api.py-27 line: 接口返回结果是{'access_token': '71_fYoMDeYh-crevmdW_fJJvMn_4lGao4KqzPn5UKAqVQJF_q0PRz5shWMbzwoDgEoGVgv3x8GcHDsLBNbhRIBhroiqByA64jJphCXm8-dJPucXtRjDg0z1axdY17IHFTaAHARPD', 'expires_in': 7200}
+2023-07-30 18:04:12,642 testpy INFO test_api.py-28 line: EnvData全局变量存储的的access_token：71_fYoMDeYh-crevmdW_fJJvMn_4lGao4KqzPn5UKAqVQJF_q0PRz5shWMbzwoDgEoGVgv3x8GcHDsLBNbhRIBhroiqByA64jJphCXm8-dJPucXtRjDg0z1axdY17IHFTaAHARPD
+2023-07-30 18:06:48,793 testpy INFO test_api.py-12 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 18:06:48,793 testpy INFO test_api.py-14 line: 请求的方法是GET
+2023-07-30 18:06:48,793 testpy INFO test_api.py-16 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 18:06:48,793 testpy INFO test_api.py-19 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 18:06:49,103 testpy INFO send_request.py-11 line: {'access_token': '71_3XeoBFsRb1hoUCW5lUxGBsSrqZDka9F-xgmsQzPDGSBp3BaSJP2orLx5hXiCeI1u7_x-8tPG04tWWJ23IHCS0AhsKHnzGpY3K3LTf8ftBIFPBJuk22bFZl2h5fsEWRaAGAQID', 'expires_in': 7200}
+2023-07-30 18:06:49,104 testpy INFO test_api.py-24 line: access_token值是71_3XeoBFsRb1hoUCW5lUxGBsSrqZDka9F-xgmsQzPDGSBp3BaSJP2orLx5hXiCeI1u7_x-8tPG04tWWJ23IHCS0AhsKHnzGpY3K3LTf8ftBIFPBJuk22bFZl2h5fsEWRaAGAQID
+2023-07-30 18:06:49,104 testpy INFO test_api.py-27 line: 接口返回结果是{'access_token': '71_3XeoBFsRb1hoUCW5lUxGBsSrqZDka9F-xgmsQzPDGSBp3BaSJP2orLx5hXiCeI1u7_x-8tPG04tWWJ23IHCS0AhsKHnzGpY3K3LTf8ftBIFPBJuk22bFZl2h5fsEWRaAGAQID', 'expires_in': 7200}
+2023-07-30 18:06:49,104 testpy INFO test_api.py-28 line: EnvData全局变量存储的的access_token：71_3XeoBFsRb1hoUCW5lUxGBsSrqZDka9F-xgmsQzPDGSBp3BaSJP2orLx5hXiCeI1u7_x-8tPG04tWWJ23IHCS0AhsKHnzGpY3K3LTf8ftBIFPBJuk22bFZl2h5fsEWRaAGAQID
+2023-07-30 18:06:49,106 testpy INFO test_three.py-9 line: TestThree开始执行
+2023-07-30 18:06:49,106 testpy INFO test_three.py-11 line: TestThree执行结束
+2023-07-30 18:06:49,108 testpy INFO test_three.py-14 line: TestThree开始执行
+2023-07-30 18:06:49,108 testpy INFO test_three.py-16 line: TestThree执行结束
+2023-07-30 21:25:14,054 testpy INFO test_api.py-12 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-30 21:25:14,054 testpy INFO test_api.py-14 line: 请求的方法是GET
+2023-07-30 21:25:14,054 testpy INFO test_api.py-16 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-30 21:25:14,054 testpy INFO test_api.py-19 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-30 21:25:14,550 testpy INFO send_request.py-11 line: {'access_token': '71_gl9VqUT3sW7LorXtGmbBICFHW1S0Yfo1EkoxcS5Tezk5zQzjfrnF_XkHKgry4nuF6M0SjZ0Bw94MMun9F9pKz8DT7YkLzgf121uUHBU-Mcvu8nlPQxNGWNHXFX8GRSgAFANYZ', 'expires_in': 7200}
+2023-07-30 21:25:14,550 testpy INFO test_api.py-24 line: access_token值是71_gl9VqUT3sW7LorXtGmbBICFHW1S0Yfo1EkoxcS5Tezk5zQzjfrnF_XkHKgry4nuF6M0SjZ0Bw94MMun9F9pKz8DT7YkLzgf121uUHBU-Mcvu8nlPQxNGWNHXFX8GRSgAFANYZ
+2023-07-30 21:25:14,550 testpy INFO test_api.py-27 line: 接口返回结果是{'access_token': '71_gl9VqUT3sW7LorXtGmbBICFHW1S0Yfo1EkoxcS5Tezk5zQzjfrnF_XkHKgry4nuF6M0SjZ0Bw94MMun9F9pKz8DT7YkLzgf121uUHBU-Mcvu8nlPQxNGWNHXFX8GRSgAFANYZ', 'expires_in': 7200}
+2023-07-30 21:25:14,550 testpy INFO test_api.py-28 line: EnvData全局变量存储的的access_token：71_gl9VqUT3sW7LorXtGmbBICFHW1S0Yfo1EkoxcS5Tezk5zQzjfrnF_XkHKgry4nuF6M0SjZ0Bw94MMun9F9pKz8DT7YkLzgf121uUHBU-Mcvu8nlPQxNGWNHXFX8GRSgAFANYZ
+2023-07-30 21:25:14,555 testpy INFO test_three.py-9 line: TestThree开始执行
+2023-07-30 21:25:14,555 testpy INFO test_three.py-11 line: TestThree执行结束
+2023-07-30 21:25:14,559 testpy INFO test_three.py-14 line: TestThree开始执行
+2023-07-30 21:25:14,559 testpy INFO test_three.py-16 line: TestThree执行结束
+2023-07-31 10:58:56,708 testpy INFO test_api.py-12 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-31 10:59:17,594 testpy INFO test_api.py-14 line: 请求的方法是GET
+2023-07-31 10:59:20,056 testpy INFO test_api.py-16 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-31 10:59:23,889 testpy INFO test_api.py-19 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-31 10:59:26,664 testpy INFO send_request.py-11 line: {'access_token': '71_m7630ExoIG07osUNKtAo5yKabEvXvLZVNHLz0udVUmRwYc11ghqaxBxYT9p2pO13b_ATs4eIxKeyvkTLrrE-cFzoOncyUxzGd_oSryRApW0nNrCUZbbZr_YX3kIDAPiAGATQF', 'expires_in': 7200}
+2023-07-31 10:59:32,191 testpy INFO test_api.py-24 line: access_token值是71_m7630ExoIG07osUNKtAo5yKabEvXvLZVNHLz0udVUmRwYc11ghqaxBxYT9p2pO13b_ATs4eIxKeyvkTLrrE-cFzoOncyUxzGd_oSryRApW0nNrCUZbbZr_YX3kIDAPiAGATQF
+2023-07-31 11:01:10,797 testpy INFO test_api.py-12 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-31 11:01:10,797 testpy INFO test_api.py-14 line: 请求的方法是GET
+2023-07-31 11:01:10,797 testpy INFO test_api.py-16 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-31 11:01:10,797 testpy INFO test_api.py-19 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-31 11:01:11,077 testpy INFO send_request.py-11 line: {'access_token': '71_VMsiBBvL1xyenTVHDWNxT6bUACcL9g9bzXzQL2QFU2wuyFb2IeqxcVMmAtxPJUjK5ZkjzemWaiGX6p0fRsQVMbXwjs06Js1TOTp2ckP_1WFcdrVVT1Co4B8x4r4YZVcABAPQM', 'expires_in': 7200}
+2023-07-31 11:01:11,077 testpy INFO test_api.py-24 line: access_token值是71_VMsiBBvL1xyenTVHDWNxT6bUACcL9g9bzXzQL2QFU2wuyFb2IeqxcVMmAtxPJUjK5ZkjzemWaiGX6p0fRsQVMbXwjs06Js1TOTp2ckP_1WFcdrVVT1Co4B8x4r4YZVcABAPQM
+2023-07-31 11:01:11,077 testpy INFO test_api.py-27 line: 接口返回结果是{'access_token': '71_VMsiBBvL1xyenTVHDWNxT6bUACcL9g9bzXzQL2QFU2wuyFb2IeqxcVMmAtxPJUjK5ZkjzemWaiGX6p0fRsQVMbXwjs06Js1TOTp2ckP_1WFcdrVVT1Co4B8x4r4YZVcABAPQM', 'expires_in': 7200}
+2023-07-31 11:01:11,077 testpy INFO test_api.py-28 line: EnvData全局变量存储的的access_token：71_VMsiBBvL1xyenTVHDWNxT6bUACcL9g9bzXzQL2QFU2wuyFb2IeqxcVMmAtxPJUjK5ZkjzemWaiGX6p0fRsQVMbXwjs06Js1TOTp2ckP_1WFcdrVVT1Co4B8x4r4YZVcABAPQM
+2023-07-31 11:01:11,080 testpy INFO test_three.py-9 line: TestThree开始执行
+2023-07-31 11:01:11,080 testpy INFO test_three.py-11 line: TestThree执行结束
+2023-07-31 11:01:11,081 testpy INFO test_three.py-14 line: TestThree开始执行
+2023-07-31 11:01:11,081 testpy INFO test_three.py-16 line: TestThree执行结束
+2023-07-31 11:01:21,595 testpy INFO test_api.py-12 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-31 11:01:21,595 testpy INFO test_api.py-14 line: 请求的方法是GET
+2023-07-31 11:01:21,595 testpy INFO test_api.py-16 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-31 11:01:21,595 testpy INFO test_api.py-19 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-31 11:01:21,832 testpy INFO send_request.py-11 line: {'access_token': '71_VMsiBBvL1xyenTVHDWNxT6bUACcL9g9bzXzQL2QFU2wuyFb2IeqxcVMmAtxPJUjK5ZkjzemWaiGX6p0fRsQVMbXwjs06Js1TOTp2ckP_1WFcdrVVT1Co4B8x4r4ZFKcABADJO', 'expires_in': 7200}
+2023-07-31 11:01:21,833 testpy INFO test_api.py-24 line: access_token值是71_VMsiBBvL1xyenTVHDWNxT6bUACcL9g9bzXzQL2QFU2wuyFb2IeqxcVMmAtxPJUjK5ZkjzemWaiGX6p0fRsQVMbXwjs06Js1TOTp2ckP_1WFcdrVVT1Co4B8x4r4ZFKcABADJO
+2023-07-31 11:01:21,833 testpy INFO test_api.py-27 line: 接口返回结果是{'access_token': '71_VMsiBBvL1xyenTVHDWNxT6bUACcL9g9bzXzQL2QFU2wuyFb2IeqxcVMmAtxPJUjK5ZkjzemWaiGX6p0fRsQVMbXwjs06Js1TOTp2ckP_1WFcdrVVT1Co4B8x4r4ZFKcABADJO', 'expires_in': 7200}
+2023-07-31 11:01:21,833 testpy INFO test_api.py-28 line: EnvData全局变量存储的的access_token：71_VMsiBBvL1xyenTVHDWNxT6bUACcL9g9bzXzQL2QFU2wuyFb2IeqxcVMmAtxPJUjK5ZkjzemWaiGX6p0fRsQVMbXwjs06Js1TOTp2ckP_1WFcdrVVT1Co4B8x4r4ZFKcABADJO
+2023-07-31 11:01:21,836 testpy INFO test_three.py-9 line: TestThree开始执行
+2023-07-31 11:01:21,837 testpy INFO test_three.py-11 line: TestThree执行结束
+2023-07-31 11:01:21,839 testpy INFO test_three.py-14 line: TestThree开始执行
+2023-07-31 11:01:21,839 testpy INFO test_three.py-16 line: TestThree执行结束
+2023-07-31 11:31:53,452 testpy INFO test_api.py-21 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-31 11:31:53,453 testpy INFO test_api.py-23 line: 请求的方法是GET
+2023-07-31 11:31:53,453 testpy INFO test_api.py-25 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-31 11:31:53,453 testpy INFO test_api.py-28 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-31 11:31:53,876 testpy INFO send_request.py-11 line: {'access_token': '71_XJi_FZ_W_7jPvuLkt3AN5q8PubN-d6qayel-rR_3q8obYYKE-24CyWG2zcPmIfVUcJlCtdyzPHagpTkC7lCSJGHUS9KkUl-eO04SOgIIIi9wrT_q0WRUx6YB0YATMOhABAZSU', 'expires_in': 7200}
+2023-07-31 11:31:53,876 testpy INFO test_api.py-33 line: access_token值是71_XJi_FZ_W_7jPvuLkt3AN5q8PubN-d6qayel-rR_3q8obYYKE-24CyWG2zcPmIfVUcJlCtdyzPHagpTkC7lCSJGHUS9KkUl-eO04SOgIIIi9wrT_q0WRUx6YB0YATMOhABAZSU
+2023-07-31 11:31:53,876 testpy INFO test_api.py-36 line: 接口返回结果是{'access_token': '71_XJi_FZ_W_7jPvuLkt3AN5q8PubN-d6qayel-rR_3q8obYYKE-24CyWG2zcPmIfVUcJlCtdyzPHagpTkC7lCSJGHUS9KkUl-eO04SOgIIIi9wrT_q0WRUx6YB0YATMOhABAZSU', 'expires_in': 7200}
+2023-07-31 11:31:53,876 testpy INFO test_api.py-37 line: EnvData全局变量存储的的access_token：71_XJi_FZ_W_7jPvuLkt3AN5q8PubN-d6qayel-rR_3q8obYYKE-24CyWG2zcPmIfVUcJlCtdyzPHagpTkC7lCSJGHUS9KkUl-eO04SOgIIIi9wrT_q0WRUx6YB0YATMOhABAZSU
+2023-07-31 11:31:53,881 testpy INFO test_three.py-9 line: TestThree开始执行
+2023-07-31 11:31:53,882 testpy INFO test_three.py-11 line: TestThree执行结束
+2023-07-31 11:31:53,883 testpy INFO test_three.py-14 line: TestThree开始执行
+2023-07-31 11:31:53,883 testpy INFO test_three.py-16 line: TestThree执行结束
+2023-07-31 11:42:57,942 testpy INFO conftest.py-19 line: 每次执行前清理EnvData
+2023-07-31 11:42:57,942 testpy INFO conftest.py-26 line: 清理EnvData完成{'__module__': 'Common.handle_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2023-07-31 11:42:57,944 testpy INFO test_api.py-22 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-31 11:42:57,944 testpy INFO test_api.py-24 line: 请求的方法是GET
+2023-07-31 11:42:57,944 testpy INFO test_api.py-26 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-31 11:42:57,944 testpy INFO test_api.py-29 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-31 11:42:58,346 testpy INFO send_request.py-11 line: {'access_token': '71_faqZp_kjiS8wGkDeRxZahk39-OCrg7vKPTlzwKcidLSMsMgtuIQV_nSQLw0gaAeIgtVTCPGakZyn8v46ct4waV6ZmNa1mOcOYIx0bdBv_Xuq8YS4hV8LaAuFOPkZCIcABANQW', 'expires_in': 7200}
+2023-07-31 11:42:58,346 testpy INFO test_api.py-34 line: access_token值是71_faqZp_kjiS8wGkDeRxZahk39-OCrg7vKPTlzwKcidLSMsMgtuIQV_nSQLw0gaAeIgtVTCPGakZyn8v46ct4waV6ZmNa1mOcOYIx0bdBv_Xuq8YS4hV8LaAuFOPkZCIcABANQW
+2023-07-31 11:42:58,346 testpy INFO test_api.py-37 line: 接口返回结果是{'access_token': '71_faqZp_kjiS8wGkDeRxZahk39-OCrg7vKPTlzwKcidLSMsMgtuIQV_nSQLw0gaAeIgtVTCPGakZyn8v46ct4waV6ZmNa1mOcOYIx0bdBv_Xuq8YS4hV8LaAuFOPkZCIcABANQW', 'expires_in': 7200}
+2023-07-31 11:42:58,346 testpy INFO test_api.py-38 line: EnvData全局变量存储的的access_token：71_faqZp_kjiS8wGkDeRxZahk39-OCrg7vKPTlzwKcidLSMsMgtuIQV_nSQLw0gaAeIgtVTCPGakZyn8v46ct4waV6ZmNa1mOcOYIx0bdBv_Xuq8YS4hV8LaAuFOPkZCIcABANQW
+2023-07-31 11:42:58,349 testpy INFO test_three.py-9 line: TestThree开始执行
+2023-07-31 11:42:58,349 testpy INFO test_three.py-11 line: TestThree执行结束
+2023-07-31 11:42:58,350 testpy INFO test_three.py-14 line: TestThree开始执行
+2023-07-31 11:42:58,350 testpy INFO test_three.py-16 line: TestThree执行结束
+2023-07-31 11:47:18,913 testpy INFO conftest.py-19 line: 每次执行前清理EnvData
+2023-07-31 11:47:18,914 testpy INFO conftest.py-26 line: 清理EnvData完成{'__module__': 'Common.handle_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2023-07-31 11:47:18,915 testpy INFO test_api.py-22 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-31 11:47:18,915 testpy INFO test_api.py-24 line: 请求的方法是GET
+2023-07-31 11:47:18,915 testpy INFO test_api.py-26 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-31 11:47:18,915 testpy INFO test_api.py-29 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-31 11:47:19,273 testpy INFO send_request.py-11 line: {'access_token': '71_AMOKMvr-JSD6TbooZRP5S4Ipe_rFrOzmEtgJhUAaE6m-mCYNV2-EhBmSHrcHq5l_arlxu0uxU2SAt54uiuwiQ5mmJ1em4Ve7l0tjzC5xIdDNZbGQveHdxWPePFkIKHdABAUWT', 'expires_in': 7200}
+2023-07-31 11:47:19,273 testpy INFO test_api.py-34 line: access_token值是71_AMOKMvr-JSD6TbooZRP5S4Ipe_rFrOzmEtgJhUAaE6m-mCYNV2-EhBmSHrcHq5l_arlxu0uxU2SAt54uiuwiQ5mmJ1em4Ve7l0tjzC5xIdDNZbGQveHdxWPePFkIKHdABAUWT
+2023-07-31 11:47:19,273 testpy INFO test_api.py-37 line: 接口返回结果是{'access_token': '71_AMOKMvr-JSD6TbooZRP5S4Ipe_rFrOzmEtgJhUAaE6m-mCYNV2-EhBmSHrcHq5l_arlxu0uxU2SAt54uiuwiQ5mmJ1em4Ve7l0tjzC5xIdDNZbGQveHdxWPePFkIKHdABAUWT', 'expires_in': 7200}
+2023-07-31 11:47:19,273 testpy INFO test_api.py-38 line: EnvData全局变量存储的的access_token：71_AMOKMvr-JSD6TbooZRP5S4Ipe_rFrOzmEtgJhUAaE6m-mCYNV2-EhBmSHrcHq5l_arlxu0uxU2SAt54uiuwiQ5mmJ1em4Ve7l0tjzC5xIdDNZbGQveHdxWPePFkIKHdABAUWT
+2023-07-31 11:47:19,276 testpy INFO test_three.py-9 line: TestThree开始执行
+2023-07-31 11:47:19,277 testpy INFO test_three.py-11 line: TestThree执行结束
+2023-07-31 11:47:19,278 testpy INFO test_three.py-14 line: TestThree开始执行
+2023-07-31 11:47:19,278 testpy INFO test_three.py-16 line: TestThree执行结束
+2023-07-31 15:00:39,845 testpy INFO conftest.py-19 line: 每次执行前清理EnvData
+2023-07-31 15:00:39,846 testpy INFO conftest.py-26 line: 清理EnvData完成{'__module__': 'Common.handle_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2023-07-31 15:00:39,847 testpy INFO test_api.py-22 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-31 15:00:39,847 testpy INFO test_api.py-24 line: 请求的方法是GET
+2023-07-31 15:00:39,847 testpy INFO test_api.py-26 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-31 15:00:39,847 testpy INFO test_api.py-29 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-31 15:00:40,158 testpy INFO send_request.py-11 line: {'access_token': '71_ABx2AvwFjJJgrSr_mAG6M67UaBvJr1ZgLo-AXCbHdqBFaXNXerJNWQZuR9wzI8R6Ew87Hk82JnTVm_sZUNcY4m1qHuN8zlw_3tBK-hTeCPoPJi3QsYPSjdx0H50PUCiAFAAFN', 'expires_in': 7200}
+2023-07-31 15:00:40,158 testpy INFO test_api.py-34 line: access_token值是71_ABx2AvwFjJJgrSr_mAG6M67UaBvJr1ZgLo-AXCbHdqBFaXNXerJNWQZuR9wzI8R6Ew87Hk82JnTVm_sZUNcY4m1qHuN8zlw_3tBK-hTeCPoPJi3QsYPSjdx0H50PUCiAFAAFN
+2023-07-31 15:00:40,158 testpy INFO test_api.py-37 line: 接口返回结果是{'access_token': '71_ABx2AvwFjJJgrSr_mAG6M67UaBvJr1ZgLo-AXCbHdqBFaXNXerJNWQZuR9wzI8R6Ew87Hk82JnTVm_sZUNcY4m1qHuN8zlw_3tBK-hTeCPoPJi3QsYPSjdx0H50PUCiAFAAFN', 'expires_in': 7200}
+2023-07-31 15:00:40,158 testpy INFO test_api.py-38 line: EnvData全局变量存储的的access_token：71_ABx2AvwFjJJgrSr_mAG6M67UaBvJr1ZgLo-AXCbHdqBFaXNXerJNWQZuR9wzI8R6Ew87Hk82JnTVm_sZUNcY4m1qHuN8zlw_3tBK-hTeCPoPJi3QsYPSjdx0H50PUCiAFAAFN
+2023-07-31 15:00:40,165 testpy INFO test_three.py-9 line: TestThree开始执行
+2023-07-31 15:00:40,165 testpy INFO test_three.py-11 line: TestThree执行结束
+2023-07-31 15:00:40,166 testpy INFO test_three.py-14 line: TestThree开始执行
+2023-07-31 15:00:40,166 testpy INFO test_three.py-16 line: TestThree执行结束
+2023-07-31 16:32:15,003 testpy INFO conftest.py-19 line: 每次执行前清理EnvData
+2023-07-31 16:32:15,003 testpy INFO conftest.py-26 line: 清理EnvData完成{'__module__': 'Common.handle_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2023-07-31 16:32:15,003 testpy INFO test_api.py-22 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-31 16:32:15,003 testpy INFO test_api.py-24 line: 请求的方法是GET
+2023-07-31 16:32:15,003 testpy INFO test_api.py-26 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-31 16:32:15,003 testpy INFO test_api.py-29 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-31 16:32:15,404 testpy INFO send_request.py-11 line: {'access_token': '71_KXDWpNCdEqwFtPECDmoBsQjViIxHg5ezcI6j3SJ-FGkgfJA9vUkCispjBfVR1m1laGS0EmKVxEM5pa0v_O-eTHbSUfktz8x7FEQClDy68kGJqPDf0gJVOvtbqDkOUBhACAXDK', 'expires_in': 7200}
+2023-07-31 16:32:15,404 testpy INFO test_api.py-34 line: access_token值是71_KXDWpNCdEqwFtPECDmoBsQjViIxHg5ezcI6j3SJ-FGkgfJA9vUkCispjBfVR1m1laGS0EmKVxEM5pa0v_O-eTHbSUfktz8x7FEQClDy68kGJqPDf0gJVOvtbqDkOUBhACAXDK
+2023-07-31 16:32:15,404 testpy INFO test_api.py-37 line: 接口返回结果是{'access_token': '71_KXDWpNCdEqwFtPECDmoBsQjViIxHg5ezcI6j3SJ-FGkgfJA9vUkCispjBfVR1m1laGS0EmKVxEM5pa0v_O-eTHbSUfktz8x7FEQClDy68kGJqPDf0gJVOvtbqDkOUBhACAXDK', 'expires_in': 7200}
+2023-07-31 16:32:15,404 testpy INFO test_api.py-38 line: EnvData全局变量存储的的access_token：71_KXDWpNCdEqwFtPECDmoBsQjViIxHg5ezcI6j3SJ-FGkgfJA9vUkCispjBfVR1m1laGS0EmKVxEM5pa0v_O-eTHbSUfktz8x7FEQClDy68kGJqPDf0gJVOvtbqDkOUBhACAXDK
+2023-07-31 16:32:15,411 testpy INFO test_three.py-9 line: TestThree开始执行
+2023-07-31 16:32:15,411 testpy INFO test_three.py-11 line: TestThree执行结束
+2023-07-31 16:32:15,413 testpy INFO test_three.py-14 line: TestThree开始执行
+2023-07-31 16:32:15,413 testpy INFO test_three.py-16 line: TestThree执行结束
+2023-07-31 16:32:24,513 testpy INFO conftest.py-19 line: 每次执行前清理EnvData
+2023-07-31 16:32:24,513 testpy INFO conftest.py-26 line: 清理EnvData完成{'__module__': 'Common.handle_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2023-07-31 16:32:24,514 testpy INFO test_api.py-22 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-31 16:32:24,515 testpy INFO test_api.py-24 line: 请求的方法是GET
+2023-07-31 16:32:24,515 testpy INFO test_api.py-26 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-31 16:32:24,515 testpy INFO test_api.py-29 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-31 16:32:24,764 testpy INFO send_request.py-11 line: {'access_token': '71_KXDWpNCdEqwFtPECDmoBsQjViIxHg5ezcI6j3SJ-FGkgfJA9vUkCispjBfVR1m1laGS0EmKVxEM5pa0v_O-eTHbSUfktz8x7FEQClDy68kGJqPDf0gJVOvtbqDkHYWhACAQHF', 'expires_in': 7200}
+2023-07-31 16:32:24,764 testpy INFO test_api.py-34 line: access_token值是71_KXDWpNCdEqwFtPECDmoBsQjViIxHg5ezcI6j3SJ-FGkgfJA9vUkCispjBfVR1m1laGS0EmKVxEM5pa0v_O-eTHbSUfktz8x7FEQClDy68kGJqPDf0gJVOvtbqDkHYWhACAQHF
+2023-07-31 16:32:24,765 testpy INFO test_api.py-37 line: 接口返回结果是{'access_token': '71_KXDWpNCdEqwFtPECDmoBsQjViIxHg5ezcI6j3SJ-FGkgfJA9vUkCispjBfVR1m1laGS0EmKVxEM5pa0v_O-eTHbSUfktz8x7FEQClDy68kGJqPDf0gJVOvtbqDkHYWhACAQHF', 'expires_in': 7200}
+2023-07-31 16:32:24,765 testpy INFO test_api.py-38 line: EnvData全局变量存储的的access_token：71_KXDWpNCdEqwFtPECDmoBsQjViIxHg5ezcI6j3SJ-FGkgfJA9vUkCispjBfVR1m1laGS0EmKVxEM5pa0v_O-eTHbSUfktz8x7FEQClDy68kGJqPDf0gJVOvtbqDkHYWhACAQHF
+2023-07-31 16:32:24,771 testpy INFO test_three.py-9 line: TestThree开始执行
+2023-07-31 16:32:24,771 testpy INFO test_three.py-11 line: TestThree执行结束
+2023-07-31 16:32:24,772 testpy INFO test_three.py-14 line: TestThree开始执行
+2023-07-31 16:32:24,772 testpy INFO test_three.py-16 line: TestThree执行结束
+2023-07-31 16:33:25,037 testpy INFO conftest.py-19 line: 每次执行前清理EnvData
+2023-07-31 16:33:25,037 testpy INFO conftest.py-26 line: 清理EnvData完成{'__module__': 'Common.handle_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2023-07-31 16:33:25,038 testpy INFO test_api.py-22 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-31 16:33:25,038 testpy INFO test_api.py-24 line: 请求的方法是GET
+2023-07-31 16:33:25,038 testpy INFO test_api.py-26 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-31 16:33:25,038 testpy INFO test_api.py-29 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-31 16:33:25,372 testpy INFO send_request.py-11 line: {'access_token': '71_HGkxUdoX70vekvzwlUxGBsSrqZDka9F-xgmsQ3_GWmFXpn4EfOkToMY4OIDTj0yd6PNi8iWda4Zh7AZEeiFWh2KalImJWjhxEM_8Kcj4peeDyIJqf3A5NXcqADIRLAeAAACWL', 'expires_in': 7200}
+2023-07-31 16:33:25,372 testpy INFO test_api.py-34 line: access_token值是71_HGkxUdoX70vekvzwlUxGBsSrqZDka9F-xgmsQ3_GWmFXpn4EfOkToMY4OIDTj0yd6PNi8iWda4Zh7AZEeiFWh2KalImJWjhxEM_8Kcj4peeDyIJqf3A5NXcqADIRLAeAAACWL
+2023-07-31 16:33:25,372 testpy INFO test_api.py-37 line: 接口返回结果是{'access_token': '71_HGkxUdoX70vekvzwlUxGBsSrqZDka9F-xgmsQ3_GWmFXpn4EfOkToMY4OIDTj0yd6PNi8iWda4Zh7AZEeiFWh2KalImJWjhxEM_8Kcj4peeDyIJqf3A5NXcqADIRLAeAAACWL', 'expires_in': 7200}
+2023-07-31 16:33:25,372 testpy INFO test_api.py-38 line: EnvData全局变量存储的的access_token：71_HGkxUdoX70vekvzwlUxGBsSrqZDka9F-xgmsQ3_GWmFXpn4EfOkToMY4OIDTj0yd6PNi8iWda4Zh7AZEeiFWh2KalImJWjhxEM_8Kcj4peeDyIJqf3A5NXcqADIRLAeAAACWL
+2023-07-31 16:33:25,377 testpy INFO test_execle_ddt.py-21 line: {'username': '张三', 'password': 'zhujianwei', 'check': '{"name":zhangsan}'}
+2023-07-31 16:33:25,379 testpy INFO test_execle_ddt.py-21 line: {'username': '李四', 'password': 123, 'check': '{"name":zhangsan}'}
+2023-07-31 16:33:25,381 testpy INFO test_three.py-9 line: TestThree开始执行
+2023-07-31 16:33:25,381 testpy INFO test_three.py-11 line: TestThree执行结束
+2023-07-31 16:33:25,382 testpy INFO test_three.py-14 line: TestThree开始执行
+2023-07-31 16:33:25,382 testpy INFO test_three.py-16 line: TestThree执行结束
+2023-07-31 16:33:44,503 testpy INFO conftest.py-19 line: 每次执行前清理EnvData
+2023-07-31 16:33:44,503 testpy INFO conftest.py-26 line: 清理EnvData完成{'__module__': 'Common.handle_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2023-07-31 16:33:44,504 testpy INFO test_api.py-22 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-31 16:33:44,504 testpy INFO test_api.py-24 line: 请求的方法是GET
+2023-07-31 16:33:44,504 testpy INFO test_api.py-26 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-31 16:33:44,505 testpy INFO test_api.py-29 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-31 16:33:44,782 testpy INFO send_request.py-11 line: {'access_token': '71_HGkxUdoX70vekvzwlUxGBsSrqZDka9F-xgmsQ3_GWmFXpn4EfOkToMY4OIDTj0yd6PNi8iWda4Zh7AZEeiFWh2KalImJWjhxEM_8Kcj4peeDyIJqf3A5NXcqADIFFXeAAAKKC', 'expires_in': 7200}
+2023-07-31 16:33:44,783 testpy INFO test_api.py-34 line: access_token值是71_HGkxUdoX70vekvzwlUxGBsSrqZDka9F-xgmsQ3_GWmFXpn4EfOkToMY4OIDTj0yd6PNi8iWda4Zh7AZEeiFWh2KalImJWjhxEM_8Kcj4peeDyIJqf3A5NXcqADIFFXeAAAKKC
+2023-07-31 16:33:44,783 testpy INFO test_api.py-37 line: 接口返回结果是{'access_token': '71_HGkxUdoX70vekvzwlUxGBsSrqZDka9F-xgmsQ3_GWmFXpn4EfOkToMY4OIDTj0yd6PNi8iWda4Zh7AZEeiFWh2KalImJWjhxEM_8Kcj4peeDyIJqf3A5NXcqADIFFXeAAAKKC', 'expires_in': 7200}
+2023-07-31 16:33:44,783 testpy INFO test_api.py-38 line: EnvData全局变量存储的的access_token：71_HGkxUdoX70vekvzwlUxGBsSrqZDka9F-xgmsQ3_GWmFXpn4EfOkToMY4OIDTj0yd6PNi8iWda4Zh7AZEeiFWh2KalImJWjhxEM_8Kcj4peeDyIJqf3A5NXcqADIFFXeAAAKKC
+2023-07-31 16:33:44,787 testpy INFO test_execle_ddt.py-21 line: {'username': '张三', 'password': 'zhujianwei', 'check': '{"name":zhangsan}'}
+2023-07-31 16:33:44,789 testpy INFO test_execle_ddt.py-21 line: {'username': '李四', 'password': 123, 'check': '{"name":zhangsan}'}
+2023-07-31 16:33:44,791 testpy INFO test_three.py-9 line: TestThree开始执行
+2023-07-31 16:33:44,792 testpy INFO test_three.py-11 line: TestThree执行结束
+2023-07-31 16:33:44,793 testpy INFO test_three.py-14 line: TestThree开始执行
+2023-07-31 16:33:44,793 testpy INFO test_three.py-16 line: TestThree执行结束
+2023-07-31 16:40:21,974 testpy INFO conftest.py-19 line: 每次执行前清理EnvData
+2023-07-31 16:40:21,975 testpy INFO conftest.py-26 line: 清理EnvData完成{'__module__': 'Common.handle_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2023-07-31 16:40:21,976 testpy INFO test_api.py-22 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-31 16:40:21,976 testpy INFO test_api.py-24 line: 请求的方法是GET
+2023-07-31 16:40:21,976 testpy INFO test_api.py-26 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-31 16:40:21,976 testpy INFO test_api.py-29 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-31 16:40:22,310 testpy INFO send_request.py-11 line: {'access_token': '71_1do5LDzV963vzqL-dlV_xOH-HRWM9ZmsuB_di5Ei4P12UIiJEYYXccHd3wmUWd04xtEKqTAfYv7UNyCeQeUiDsBHGLtLMy2ZkANCvkYPtFAeMiXQFPgBfVanwyUULIaAFAYPM', 'expires_in': 7200}
+2023-07-31 16:40:22,310 testpy INFO test_api.py-34 line: access_token值是71_1do5LDzV963vzqL-dlV_xOH-HRWM9ZmsuB_di5Ei4P12UIiJEYYXccHd3wmUWd04xtEKqTAfYv7UNyCeQeUiDsBHGLtLMy2ZkANCvkYPtFAeMiXQFPgBfVanwyUULIaAFAYPM
+2023-07-31 16:40:22,310 testpy INFO test_api.py-37 line: 接口返回结果是{'access_token': '71_1do5LDzV963vzqL-dlV_xOH-HRWM9ZmsuB_di5Ei4P12UIiJEYYXccHd3wmUWd04xtEKqTAfYv7UNyCeQeUiDsBHGLtLMy2ZkANCvkYPtFAeMiXQFPgBfVanwyUULIaAFAYPM', 'expires_in': 7200}
+2023-07-31 16:40:22,310 testpy INFO test_api.py-38 line: EnvData全局变量存储的的access_token：71_1do5LDzV963vzqL-dlV_xOH-HRWM9ZmsuB_di5Ei4P12UIiJEYYXccHd3wmUWd04xtEKqTAfYv7UNyCeQeUiDsBHGLtLMy2ZkANCvkYPtFAeMiXQFPgBfVanwyUULIaAFAYPM
+2023-07-31 16:40:22,313 testpy INFO test_execle_ddt.py-21 line: {'username': '张三', 'password': 'zhujianwei', 'check': '{"name":zhangsan}'}
+2023-07-31 16:40:22,316 testpy INFO test_execle_ddt.py-21 line: {'username': '李四', 'password': 123, 'check': '{"name":zhangsan}'}
+2023-07-31 16:40:22,318 testpy INFO test_three.py-9 line: TestThree开始执行
+2023-07-31 16:40:22,318 testpy INFO test_three.py-11 line: TestThree执行结束
+2023-07-31 16:40:22,320 testpy INFO test_three.py-14 line: TestThree开始执行
+2023-07-31 16:40:22,321 testpy INFO test_three.py-16 line: TestThree执行结束
+2023-07-31 16:40:29,434 testpy INFO conftest.py-19 line: 每次执行前清理EnvData
+2023-07-31 16:40:29,434 testpy INFO conftest.py-26 line: 清理EnvData完成{'__module__': 'Common.handle_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2023-07-31 16:40:29,435 testpy INFO test_api.py-22 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-31 16:40:29,435 testpy INFO test_api.py-24 line: 请求的方法是GET
+2023-07-31 16:40:29,435 testpy INFO test_api.py-26 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-31 16:40:29,435 testpy INFO test_api.py-29 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-31 16:40:29,756 testpy INFO send_request.py-11 line: {'access_token': '71_1do5LDzV963vzqL-dlV_xOH-HRWM9ZmsuB_di5Ei4P12UIiJEYYXccHd3wmUWd04xtEKqTAfYv7UNyCeQeUiDsBHGLtLMy2ZkANCvkYPtFAeMiXQFPgBfVanwyUPHIaAFAKCD', 'expires_in': 7200}
+2023-07-31 16:40:29,756 testpy INFO test_api.py-34 line: access_token值是71_1do5LDzV963vzqL-dlV_xOH-HRWM9ZmsuB_di5Ei4P12UIiJEYYXccHd3wmUWd04xtEKqTAfYv7UNyCeQeUiDsBHGLtLMy2ZkANCvkYPtFAeMiXQFPgBfVanwyUPHIaAFAKCD
+2023-07-31 16:40:29,756 testpy INFO test_api.py-37 line: 接口返回结果是{'access_token': '71_1do5LDzV963vzqL-dlV_xOH-HRWM9ZmsuB_di5Ei4P12UIiJEYYXccHd3wmUWd04xtEKqTAfYv7UNyCeQeUiDsBHGLtLMy2ZkANCvkYPtFAeMiXQFPgBfVanwyUPHIaAFAKCD', 'expires_in': 7200}
+2023-07-31 16:40:29,756 testpy INFO test_api.py-38 line: EnvData全局变量存储的的access_token：71_1do5LDzV963vzqL-dlV_xOH-HRWM9ZmsuB_di5Ei4P12UIiJEYYXccHd3wmUWd04xtEKqTAfYv7UNyCeQeUiDsBHGLtLMy2ZkANCvkYPtFAeMiXQFPgBfVanwyUPHIaAFAKCD
+2023-07-31 16:40:29,759 testpy INFO test_execle_ddt.py-21 line: {'username': '张三', 'password': 'zhujianwei', 'check': '{"name":zhangsan}'}
+2023-07-31 16:40:29,761 testpy INFO test_execle_ddt.py-21 line: {'username': '李四', 'password': 123, 'check': '{"name":zhangsan}'}
+2023-07-31 16:40:29,762 testpy INFO test_three.py-9 line: TestThree开始执行
+2023-07-31 16:40:29,762 testpy INFO test_three.py-11 line: TestThree执行结束
+2023-07-31 16:40:29,764 testpy INFO test_three.py-14 line: TestThree开始执行
+2023-07-31 16:40:29,764 testpy INFO test_three.py-16 line: TestThree执行结束
+2023-07-31 19:32:29,478 testpy INFO conftest.py-19 line: 每次执行前清理EnvData
+2023-07-31 19:32:29,478 testpy INFO conftest.py-26 line: 清理EnvData完成{'__module__': 'Common.handle_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2023-07-31 19:32:29,479 testpy INFO test_api.py-22 line: 获取到的用例{'name': '获取接口token', 'request': {'method': 'GET', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'date': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': 'none'}
+2023-07-31 19:32:29,480 testpy INFO test_api.py-24 line: 请求的方法是GET
+2023-07-31 19:32:29,480 testpy INFO test_api.py-26 line: 请求的URLhttps://api.weixin.qq.com/cgi-bin/token
+2023-07-31 19:32:29,480 testpy INFO test_api.py-29 line: 全局变量data:{'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}
+2023-07-31 19:32:29,803 testpy INFO send_request.py-11 line: {'access_token': '71_W1FZsjfEHja78P2Ck4YfJVgH-ZvVtV_lMQD9geiYAcxzlMYonR9e9bp8QbME37IySP0TehMLhn-Oc6gqNaZc0uEOUS9rgNh0CPGbAGk4d0MaqGFVghx3sMuvDVEXLAiAEAKYN', 'expires_in': 7200}
+2023-07-31 19:32:29,803 testpy INFO test_api.py-34 line: access_token值是71_W1FZsjfEHja78P2Ck4YfJVgH-ZvVtV_lMQD9geiYAcxzlMYonR9e9bp8QbME37IySP0TehMLhn-Oc6gqNaZc0uEOUS9rgNh0CPGbAGk4d0MaqGFVghx3sMuvDVEXLAiAEAKYN
+2023-07-31 19:32:29,803 testpy INFO test_api.py-37 line: 接口返回结果是{'access_token': '71_W1FZsjfEHja78P2Ck4YfJVgH-ZvVtV_lMQD9geiYAcxzlMYonR9e9bp8QbME37IySP0TehMLhn-Oc6gqNaZc0uEOUS9rgNh0CPGbAGk4d0MaqGFVghx3sMuvDVEXLAiAEAKYN', 'expires_in': 7200}
+2023-07-31 19:32:29,803 testpy INFO test_api.py-38 line: EnvData全局变量存储的的access_token：71_W1FZsjfEHja78P2Ck4YfJVgH-ZvVtV_lMQD9geiYAcxzlMYonR9e9bp8QbME37IySP0TehMLhn-Oc6gqNaZc0uEOUS9rgNh0CPGbAGk4d0MaqGFVghx3sMuvDVEXLAiAEAKYN
+2023-07-31 19:32:29,806 testpy INFO test_execle_ddt.py-21 line: {'username': '张三', 'password': 'zhujianwei', 'check': '{"name":zhangsan}'}
+2023-07-31 19:32:29,808 testpy INFO test_execle_ddt.py-21 line: {'username': '李四', 'password': 123, 'check': '{"name":zhangsan}'}
+2023-07-31 19:32:29,809 testpy INFO test_three.py-9 line: TestThree开始执行
+2023-07-31 19:32:29,810 testpy INFO test_three.py-11 line: TestThree执行结束
+2023-07-31 19:32:29,811 testpy INFO test_three.py-14 line: TestThree开始执行
+2023-07-31 19:32:29,811 testpy INFO test_three.py-16 line: TestThree执行结束
