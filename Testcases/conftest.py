@@ -25,3 +25,6 @@ def env_del_data_dic():
         else:
             delattr(EnvData, key)
     logger.info("清理EnvData完成{}".format(EnvData.__dict__))
+
+def test_git():
+    pass
