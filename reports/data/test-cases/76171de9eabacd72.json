@@ -1,0 +1,126 @@
+{
+  "uid" : "76171de9eabacd72",
+  "name" : "test_ces",
+  "fullName" : "Testcases.test_three.TestThree#test_ces",
+  "historyId" : "2fc8606a1546138523292d1025424d2f",
+  "time" : {
+    "start" : 1691553002566,
+    "stop" : 1691553002566,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "sql_fix",
+    "time" : {
+      "start" : 1691553002565,
+      "stop" : 1691553002565,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "test_fixture",
+    "time" : {
+      "start" : 1691553002565,
+      "stop" : 1691553002565,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "test_fixture::0",
+    "time" : {
+      "start" : 1691553002566,
+      "stop" : 1691553002566,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "sql_fix::0",
+    "time" : {
+      "start" : 1691553002802,
+      "stop" : 1691553002802,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('test_fixture')"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_three"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestThree"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-KFR5BLTF"
+  }, {
+    "name" : "thread",
+    "value" : "76260-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.test_three"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke", "@pytest.mark.usefixtures('test_fixture')" ]
+  },
+  "source" : "76171de9eabacd72.json",
+  "parameterValues" : [ ]
+}

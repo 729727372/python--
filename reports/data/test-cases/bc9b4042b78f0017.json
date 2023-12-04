@@ -1,0 +1,60 @@
+{
+  "uid" : "bc9b4042b78f0017",
+  "name" : "test_login[cases0]",
+  "fullName" : "Testcases.test_execle_ddt#test_login",
+  "historyId" : "b98c31c1cd0f0b9bb3b92a00cd772389",
+  "time" : {
+    "start" : 1691310295484,
+    "stop" : 1691310295485,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_execle_ddt"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-KFR5BLTF"
+  }, {
+    "name" : "thread",
+    "value" : "61936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.test_execle_ddt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cases",
+    "value" : "{'username': '张三', 'password': 'zhujianwei', 'check': '{\"name\":zhangsan}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc9b4042b78f0017.json",
+  "parameterValues" : [ "{'username': '张三', 'password': 'zhujianwei', 'check': '{\"name\":zhangsan}'}" ]
+}
